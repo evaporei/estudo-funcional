@@ -47,6 +47,10 @@ const curry = (fn) => {
 //   return result
 // }
 
+// helper([1,2,3],[])
+// helper([2,3],[1])
+// helper([3],[1,2])
+// helper([],[1,2,3])
 const map = (array, fn) => {
   function helper (array, result) {
     if (!array.length) {
